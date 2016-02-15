@@ -1,0 +1,21 @@
+{
+  "name": "vagrant",
+  "version": "1.0.0",
+  "description": "This Vagrant enables the Ubuntu 15.04 Vivid - 64-bit environment box and provisions Node 5.x and Mongodb 3.2 packages.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "sinon": "^1.17.2",
+    "supertest": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
