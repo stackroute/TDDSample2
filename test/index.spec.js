@@ -4,7 +4,7 @@ assert = require("chai").assert,
 supertest = require("supertest"),
 app = require("../app");
 
-var url = supertest("http://localhost:8080");
+var url = supertest(app);
 
 describe("Testing the first route", function(err){
   it("should handle the request", function(done){

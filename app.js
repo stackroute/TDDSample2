@@ -14,5 +14,4 @@ app.use('/', routes);
 app.use('/product', products);
 app.use('/data', data);
 
-
-app.listen(8080);
+exports = module.exports = app;
