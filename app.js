@@ -1,6 +1,6 @@
 var express = require("express");
 var bodyParser = require('body-parser');
-var logger = require("morgan")
+var logger = require("morgan");
 var app = express();
 
 var routes = require('./routes/index');
